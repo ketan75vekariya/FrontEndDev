@@ -95,3 +95,29 @@ body {
 #img3 {
   transform: translate(-50%, -50%) rotate(-10deg) !important;
 }
+
+/*Footer*/
+#btn-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 17px;
+  font-weight: 300;
+}
+#footer-right {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  font-size: 17px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+#footer-right > i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  margin-right: 10px;
+}
