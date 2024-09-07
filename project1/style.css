@@ -64,3 +64,34 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* Hero Section */
+
+#hero > h1 {
+  font-size: 180px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+#hero > img {
+  height: 330px;
+  width: 270px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg) !important;
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-20deg) !important;
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-10deg) !important;
+}
